@@ -1,0 +1,125 @@
+
+
+.font {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #8B0000; 
+}
+.img {
+    display: block; 
+    margin: 0 auto; 
+}
+body {
+    background-color: #f5dddd 
+}
+
+.right-aligned-image {
+    float: right;
+
+}
+.container {
+    display: flex;
+    justify-content: left;
+
+}
+
+.right-aligned-text {
+    text-align: left;
+    
+    top: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #8B0000;
+    background-color: rgb(255, 244, 246); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.body {
+    background-image: url('your-image-url.jpg');
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    top: 100px;
+}
+
+ 
+
+
+.right-aligned-text2 {
+    
+    text-align: left;
+    top: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #8B0000;
+    background-color: rgb(255, 244, 246);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+
+.right-aligned-image {
+    text-size-adjust:100px;
+    position:fixed;
+    top: 110px;
+    left: 950px;
+    margin: 0;
+    width: auto;
+    height: 80vh;
+    max-width: calc(100% - 500px); 
+    object-fit: cover; 
+    object-position: top; 
+    background-color: rgb(255, 244, 246);
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+
+
+
+.title {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #8B0000; 
+}
+
+html, body {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.second-page {
+    text-align: left;
+    position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #431919;
+    background-color: rgb(246, 244, 255);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    
+}
+.second-page a {
+    color: #8f3737; 
+    text-decoration: underline; 
+}
+
+.second-page a:hover {
+    color: #5a5f9d; 
+}
+
+    
+
+
+
+
+

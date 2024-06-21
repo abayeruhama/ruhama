@@ -1,0 +1,125 @@
+.font {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #6b4343; 
+    transform: translate(20px, 100px);
+    
+}
+    .title {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        color: #6b4343; 
+    
+}
+.img {
+    display: block; 
+    margin: 0 auto; 
+    text-align: center;
+    
+    
+}
+
+  
+.underline {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color:#825c5c;
+    text-decoration: underline;
+    
+
+}
+.underlinecenter {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #825c5c;
+    text-decoration: underline;
+    top: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #614747;
+    background-color: rgb(223, 161, 165);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+
+}
+
+
+.backround-img {
+    background-image: url('https://marketplace.canva.com/EAFuZx-GCiw/1/0/1600w/canva-pink-peach-creative-cute-cake-page-border-a4-document-3piVj6ewXgc.jpg'); /* Replace 'your-image-url.jpg' with the URL of your image */
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    top: 100px;
+}
+
+.text {
+    text-align: left;
+    
+    top: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #825c5c;
+    background-color: rgb(223, 161, 165);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+.link a {
+    text-decoration:underline;
+    text-align: center;
+    text-align: left;
+    position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #431919;
+    background-color: rgb(246, 244, 255);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.link a:hover {
+    color: #5d62a0; 
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+}
+
+.background-img {
+    background-image: url(https://marketplace.canva.com/EAF5dkBpxAc/1/0/1600w/canva-pink-beige-illustrated-coquette-vintage-nature-zoom-virtual-background-UsX1uBhznOM.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white; 
+    padding: 20px;
+    text-align: center; 
+}
+
+::placeholder
+{
+    color: maroon;
+}
+.input {
+        color: #825c5c;
+    background-color: rgb(223, 161, 165);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
